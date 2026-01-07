@@ -1,0 +1,1009 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body {
+    margin-top: 200px;
+
+
+}
+
+.dropdown-menu a:hover {
+    text-decoration: underline;
+
+
+}
+
+
+
+.navbar {
+    position: fixed;
+    margin-top: 150px;
+    background-color: #36281e;
+
+
+}
+.navbar a.nav-link:hover {
+    color: #d4af37 !important;
+}
+
+
+.top-bar {
+    position: fixed;
+    padding: 15px;
+    z-index: 1050;
+    padding-top: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #493628;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.nav-link:hover {
+    color: #d4af37;
+    border-bottom: #d4af37;
+
+
+}
+
+
+
+
+
+.top-bar h3 {
+    color: #d4af37;
+
+
+}
+
+.text-bar {
+    color: #d4af37;
+
+
+}
+
+.ld img {
+    width: 70px;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+.ld h3 {
+    padding-top: 0;
+}
+
+.middle {
+    width: 100%;
+    height: 60px;
+    background-color: #36281e;
+
+
+
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 200px;
+
+
+
+}
+
+
+
+header img {
+    width: 100%;
+    height: 400px;
+    filter: brightness(0.9) contrast(1.05);
+
+
+}
+
+.fixed {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    margin-top: -400px;
+    background: linear-gradient(to right,
+            rgba(47, 31, 26, 0.92), rgba(73, 54, 40, 0.75), rgba(73, 54, 40, 0.35));
+
+
+}
+
+.fixed-text h1 {
+
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 60px;
+
+
+
+}
+
+.fixed img {
+    width: 100%;
+    height: 350px;
+
+}
+
+.fixed a {
+
+    margin-left: 10px;
+    width: 160px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background: transparent;
+    border: 2px solid #d4af37;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+
+}
+
+.fixed a:hover {
+    box-shadow: 0 6px 18px rgba(212, 175, 55, 0.4);
+    color: #ffffff;
+
+
+}
+
+
+
+
+#order-button {
+    width: 160px;
+    height: 45px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #d4af37, #b8962e);
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+#order-button:hover {
+    box-shadow: 0 6px 18px rgba(212, 175, 55, 0.4);
+    color: #2f1f1a;
+
+
+}
+
+
+
+
+.card-set {
+    height: 400px;
+    border-radius: 16px;
+    border: 1px solid #d4af37;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #d4af37;
+
+
+}
+
+#set-color {
+    background: linear-gradient(90deg, #3b2a24, #493628);
+
+
+}
+
+#set-color img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.category {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.category h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.card-set p {
+    color: black;
+    font-size: 15.5px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+
+}
+
+
+.card-set a {
+    margin-top: auto;
+    background: linear-gradient(135deg, #d4af37, #b8962e);
+    color: #2f1f1a;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #2f1f1a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+
+.card-set a:hover {
+    background: linear-gradient(135deg, #b8962e, #d4af37);
+    color: white;
+}
+
+.card-text {
+    background: linear-gradient(90deg, #3b2a24, #493628);
+
+}
+
+.card-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.order-now-btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+
+#sector {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+
+
+
+}
+
+#sector h1 {
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.discount {
+    min-height: 390px;
+    height: auto;
+    background: linear-gradient(90deg, #3b2a24, #493628);
+
+}
+
+
+
+.discount p {
+    font-size: 20px;
+    color: white;
+
+
+
+}
+
+.discount h2 {
+    color: #ba9c3c;
+
+
+}
+
+.discount h4 {
+    color: white;
+
+
+}
+
+.discount img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+
+}
+
+
+.important {
+    background: linear-gradient(90deg, #3b2a24, #493628);
+    color: white;
+    position: relative;
+
+
+
+}
+
+.important img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+
+
+
+
+}
+
+.important h6 span {
+    padding-left: 8px;
+
+
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.settle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.settle h3 {
+    margin-bottom: 10px;
+}
+
+.settle p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+.last-sec {
+    background: linear-gradient(90deg, #3b2a24, #493628);
+    color: white;
+
+
+
+}
+
+
+.last-sec a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.last-sec a:hover {
+    color: white;
+}
+
+.last-sec p {
+    margin: 5px 0;
+}
+
+#socail {
+    font-size: 28px;
+    margin: 30px;
+
+
+}
+
+.icon {
+    transition: 0.5s;
+
+
+}
+
+.icon:hover {
+    transform: scale(1.2);
+
+
+}
+
+.h-row {
+    background-color: white;
+
+
+}
+
+/* -----/-----/-----/-----/-----/-----/-----  / ----- //  MENU CSS // -----  / -----/-----/-----/-----/-----/-----/-----  */
+
+.set-color {
+    background: #f8f8f8;
+}
+
+
+.card-set {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+
+.card-img-top {
+    object-fit: cover;
+}
+
+
+
+.btn-group {
+    width: 100%;
+}
+
+
+.btn-group .btn {
+    height: 48px;
+    border-radius: 999px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.btn-group .btn:first-child {
+    background: transparent;
+    border: 2px solid #d4af37;
+    color: #d4af37;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn-group .btn:first-child:hover {
+    box-shadow: 0 6px 18px rgba(212, 175, 55, 0.4);
+    color: #2f1f1a;
+
+
+
+}
+
+.btn-group .btn:last-child {
+    background: linear-gradient(135deg, #d4af37, #b8962e);
+    border: none;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn-group .btn:last-child:hover {
+    box-shadow: 0 6px 18px rgba(212, 175, 55, 0.4);
+    color: white;
+
+
+}
+
+.meal-prize {
+    padding-left: 200px;
+    padding-top: 50px;
+    color: black;
+
+
+}
+
+
+.modal-text {
+    background: #36281e;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.order-modal .modal-header {
+    border-bottom: 1px solid #b58b5a;
+}
+
+.order-modal .modal-footer {
+    border-top: 1px solid #b58b5a;
+}
+
+.order-modal .form-control,
+.order-modal .form-select {
+    background: #2b1f17;
+    color: #fff;
+    border: 1px solid #b58b5a;
+}
+
+.order-modal .form-control::placeholder {
+    color: #ccc;
+}
+
+.order-modal label {
+    font-weight: 600;
+}
+
+
+
+
+.confirm-btn {
+    background: linear-gradient(135deg, #d4af37, #b8962e);
+    border: none;
+    font-weight: 600;
+
+
+
+}
+
+.confirm-btn:hover {
+    box-shadow: 0 6px 18px rgba(212, 175, 55, 0.4);
+    color: white;
+
+
+}
+
+.alert-confirm {
+    position: absolute;
+    top: 10px;
+    margin-left: 20px;
+    width: 95%;
+    z-index: 1056;
+    border-radius: 8px;
+    background-color: #d4af37;
+    color: #36281e;
+    border: none;
+    font-weight: 500;
+}
+
+
+.alert-confirm {
+    background-color: #d4af37;
+    color: #36281e;
+    border: none;
+    font-weight: 500;
+}
+
+
+/* 
+-----/-----/-----/-----/-----/-----/-----  / ----- //  GALLERY CSS // -----  / -----/-----/-----/-----/-----/-----/-----  */
+*/
+/* .top-gap{ margin-top: 550px;
+
+
+} */
+
+
+.gallery-img {
+    border-radius: 20px;
+    transition: 0.7s;
+
+
+
+}
+
+.gallery-img:hover {
+    transform: translatey(-8px)scale(1.04)translatex(-8px)translatex(8px);
+
+
+}
+
+
+
+/* -----/-----/-----/-----/-----/-----/-----  / ----- //  AWARD CSS // -----  / -----/-----/-----/-----/-----/-----/-----  */
+*/ .card {
+
+    overflow: hidden;
+}
+
+.card-img-top {
+    object-fit: cover;
+
+
+
+}
+
+
+
+
+.award p {
+    font-size: 14px;
+}
+
+
+
+.award h3 {
+    font-size: 20px;
+    color: #d4af37;
+
+
+}
+
+.award h3:hover {
+    text-decoration: underline;
+
+}
+
+.award a {
+    text-decoration: none;
+
+
+}
+
+.award-img {
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* -----/-----/-----/-----/-----/-----/-----  / ----- //  CONTACT CSS // -----  / -----/-----/-----/-----/-----/-----/-----  */
+*/ #set-color {
+    background-color: #1e1b18;
+}
+
+.bg-form {
+    background-color: #36281e;
+    color: white;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.feedback-content {
+    width: 70%;
+    height: auto;
+    margin-top: 230px;
+
+
+}
+
+.heading-color {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #d4af37;
+}
+
+
+.form-control {
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #d4af37;
+    color: #36281e;
+    border: none;
+    font-weight: 500;
+}
+
+/* 
+-----/-----/-----/-----/-----/-----/-----  / ----- //  ABOUT CSS // -----  / -----/-----/-----/-----/-----/-----/-----  */
+
+
+.image-border {
+    border-radius: 35px;
+
+
+}
+
+
+#set-about-color {
+    background: linear-gradient(90deg, #3b2a24, #493628);
+
+
+
+}
+
+
+.about-card {
+    height: 100%;
+    background-color: #36281e;
+    border-radius: 20px;
+    transition: 2s;
+
+}
+
+
+.accordion-flush .accordion-button {
+    border-bottom: 1px solid white;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-flush .accordion-button:not(.collapsed) {
+    border-bottom: 1px solid white;
+}
+
+
+*/
+
+/* -----/-----/-----/-----/-----/-----/-----  / ----- //  CATTERING CSS // -----  / -----/-----/-----/-----/-----/-----/-----  */
+*/ .catering-img {
+    object-fit: cover;
+    height: 300px;
+
+
+}
+
+
+/* 
+-----/-----/-----/-----/-----/-----/-----  / ----- //  MONTH-RECIPE CSS // -----  / -----/-----/-----/-----/-----/-----/-----  */
+
+
+.recipe-img {
+    height: 300px;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+recipe-button {
+    width: 160px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #d4af37;
+    color: white;
+
+
+}
+
+/* -----/-----/-----/-----/-----/-----/-----  / ----- //  SITEMAPE CSS // -----  / -----/-----/-----/-----/-----/-----/-----  */
+*/ .box {
+    width: 250px;
+    height: 150px;
+    background: #36281e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+
+.top-box {
+    width: 150px;
+    height: 100px;
+    background: #36281e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+
+}
+
+.text-box {
+    width: 250px;
+    height: 150px;
+    background: #36281e;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+
+.main {
+    height: 60px;
+    background: #36281e;
+    color: #000;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    transition: 0.3s;
+
+}
+
+
+
+.box-line {
+    width: 2px;
+    height: 80px;
+    background: #d4af37;
+    margin: auto;
+}
+
+.line {
+    width: 2px;
+    height: 50px;
+    background: #d4af37;
+    margin: 20px;
+    margin-left: 80px;
+
+
+}
+
+.line-1 {
+    width: 2px;
+    height: 50px;
+    background: #d4af37;
+    margin: 20px;
+    margin-left: 270px;
+
+
+}
+
+.line-2 {
+    width: 2px;
+    height: 50px;
+    background: #d4af37;
+    margin: 20px;
+    margin-left: 145px;
+
+
+}
+
+.line-3 {
+    width: 2px;
+    height: 50px;
+    background: #d4af37;
+    margin: 20px;
+    margin-left: 15px;
+
+
+}
+
+.line-4 {
+    width: 2px;
+    height: 50px;
+    background: #d4af37;
+    margin: 20px;
+    margin-left: 1050px;
+
+
+}
+
+.position-set {
+    margin-left: 145px;
+    padding: 30px;
+    padding-top: 40px;
+
+
+}
+
+.position-set-2 {
+    margin-left: 20px;
+    padding: 30px;
+    padding-top: 40px;
+
+
+}
+
+.position-set-3 {
+    margin-left: -105px;
+    padding: 30px;
+    padding-top: 40px;
+
+
+
+}
+
+.position-set-4 {
+    margin-left: 930px;
+    padding: 30px;
+    padding-top: 40px;
+
+
+
+}
+
+.site-map a {
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+.site-map a:hover {
+    color: white;
+
+
+}
+
+.align-set {
+    margin-top: -155px;
+
+}
+
+
+
+
+.top-box,
+.text-box,
+.main {
+    margin: 20px auto;
+}
+
+.position-set,
+.position-set-2,
+.position-set-3,
+.position-set-4 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.line,
+.line-1,
+.line-2,
+.line-3,
+.line-4 {
+    margin: 10px auto;
+}
+
+
+
+    {
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-box {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text-box {
+        width: 90%;
+        height: auto;
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .main {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .box-line,
+    .line,
+    .line-1,
+    .line-2,
+    .line-3,
+    .line-4 {
+        display: none;
+    }
+
+    .align-set {
+        margin-top: 0;
+    }
+}
